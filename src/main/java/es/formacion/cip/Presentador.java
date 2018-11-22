@@ -1,4 +1,5 @@
 package es.formacion.cip;
+
 import java.util.Random;
 
 public class Presentador extends Thread {
@@ -8,9 +9,9 @@ public class Presentador extends Thread {
 
     public Presentador(Cola cola) {
         this.cola = cola;
-        // this.letra = letra;
     }
 
+    //Generamos una letra del alfabeto de manera aleatoria
     public void run() {
 
         while (true) {

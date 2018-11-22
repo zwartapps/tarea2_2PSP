@@ -12,9 +12,12 @@ public class Concursante extends Thread {
         this.numero = numero;
     }
 
+    //Creamos este Stringbuilder que tenemos que llenar con las letras "de"
     public StringBuilder sb = new StringBuilder("__");
     private volatile boolean exit = false;
 
+    /*Le decimos que mientras que no consigan ambas letras, es decir que el StringBuilder sea igual a "de",
+    vaya añadiendo letras a cada concursante (hilo), la "d" en la primera posicion y la "e" en la segunda*/
     public void run() {
 
         while (!exit) {

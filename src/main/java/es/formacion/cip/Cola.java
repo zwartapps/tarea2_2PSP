@@ -1,5 +1,6 @@
 package es.formacion.cip;
 
+//Clase para sacar y meter las letras que recibimos de manera aleatoria y que espera a cada hilo
 public class Cola {
 
     private char letra;

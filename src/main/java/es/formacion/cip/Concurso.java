@@ -1,5 +1,6 @@
 package es.formacion.cip;
 
+//creamos el hilo Presentador y los 3 hilos de los concursantes
 public class Concurso {
 
     public static void main(String[] args) {
