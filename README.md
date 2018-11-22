@@ -4,7 +4,7 @@ Tarea 2_2 del modulo Programación de Servicios y Procesos.
 ## Descripción
 Programación de Servicios y Procesos
 
-Práctica 2.
+### Práctica 2.
 
 Tenemos un presentador que genera caracteres de manera aleatoria entre la a y la z, y tenemos 3
 concursantes que se pelean por recoger las letras. Cada concursante tiene que usar las letras que va
